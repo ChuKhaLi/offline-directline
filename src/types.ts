@@ -1,3 +1,5 @@
+export * from './bridge';
+export { WebSocketServer } from './webSocketServer';
 export interface IUser {
     id: string,
     name: string
